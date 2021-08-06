@@ -24,4 +24,4 @@ jobs:
       # Run Unit tests- Specify unit tests here
 
       # sam deploy
-      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name sam-hello-world --s3-bucket opendata-statops --capabilities CAPABILITY_IAM --region eu-west-3
+      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name opendata-statops --s3-bucket opendata-statops --capabilities CAPABILITY_IAM --region eu-west-3
